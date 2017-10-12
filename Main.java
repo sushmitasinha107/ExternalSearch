@@ -37,7 +37,6 @@ public class Main {
 			Entry<Integer, HashSet<String>> entry = (Entry<Integer, HashSet<String>>) iterator.next();
 			
 			set = (HashSet<String>) entry.getValue();
-			if((Integer)entry.getKey() == 16460 ){System.out.println(set);}
 			if(set.size()>= N){
 				resultSet.add((Integer) entry.getKey());
 			}
